@@ -8,3 +8,5 @@ Then it retrieves the top repositories available for each topic from their respe
 The data for each topic is then saved into a csv file.
 
 The scraper works by fetching the main topics page from GitHub, then it extracts information about each topic and iterates through them to fetch details about the top repositories under each topic.
+
+The requirement.txt contains all the required packages.
