@@ -1,6 +1,7 @@
 import os
 from scraping import get_main_topics_page, get_topic_repos, get_topics_data
 from utils import file_needs_update
+
 def scrape_topic_repo(topic_page_url, save_path):
     # Check if the data file already exists and is updated to skip this part
     if os.path.exists(save_path) and not file_needs_update(save_path):
